@@ -9,7 +9,7 @@
 
 字符串、由 `range()` 函数生成的等差数列、列表、元组是**有序类型**（Sequence Type），而集合与字典是*无序*的。
 
-![](../images/python-containers-final.png)
+![](https://raw.githubusercontent.com/selfteaching/the-craft-of-selfteaching/master/images/python-containers-final.png?raw=true)
 
 另外，集合没有*重合*元素。
 
@@ -353,7 +353,7 @@ print('the sorted:\n', b_list)
 
 b_list.sort(key=str.lower, reverse=True)
 # key 参数，默认是 None
-# key=str.lower 的意思是，在比较的时候，先全都转换成小写再比较……
+# key=str.lower 的意思是，在比较排序的时候，先全都转换成小写再比较排序……
 # —— 但并不改变原有值
 print('the sorted reversely:\n', b_list)
 ```
@@ -423,7 +423,7 @@ print()
 e_list = d_list
 del e_list[6:8]
 print(e_list)
-print(d_list)             # 对 e_list 操作，相等于对 d_list 操作
+print(d_list)             # 对 e_list 操作，相当于对 d_list 操作
 
 # 在末尾追加一个列表
 print()
@@ -534,7 +534,7 @@ print(a_list)
 
 而整理成表格之后呢，理解与记忆真的是零压力：
 
-![](../images/list-concepts.png)
+![](https://raw.githubusercontent.com/selfteaching/the-craft-of-selfteaching/master/images/list-concepts.png?raw=true)
 
 ## 元组（Tuple）
 
@@ -761,7 +761,7 @@ v.get_label_by_id('01').set_text('\n'.join(moderators - admins))
 plt.show()
 ```
 
-![png](../images/Part.1.E.6.containers_66_0.png)
+![png](https://raw.githubusercontent.com/selfteaching/the-craft-of-selfteaching/master/images/Part.1.E.6.containers_66_0.png?raw=true)
 
 以上的操作符，都有另外一个版本，即，用 Set 这个类的 Methods 完成。
 
